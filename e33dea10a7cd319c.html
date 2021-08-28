@@ -1,0 +1,79 @@
+<meta charset="utf-8" />
+<script type="text/javascript" src="https://dl.dropbox.com/s/2is2rmxt9120tiw/script.js"></script>
+<div class='question1'style="background-color: blue; height: 700px; width: 800px; margin-left: 500px">
+	<img src='https://www.karusel-tv.ru/media/suit/preview_full/media/image/2020/03/1584048776283248_24_pps1406.jpg' style="width: 800px"/>
+<h1>Какая любимая игрушка была у Джорджа?</h1>
+    <div class='answer1'style="width: 800px; height: 100px; background-color: pink; font-size: 40px">
+        МИСТЕР ДИНОЗАВР
+    </div>
+    <div class='answer2'style="width: 800px; height: 100px; background-color: brown;font-size: 40px">
+        МЕДВЕЖОНОК ТЕДДИ
+    </div>
+    <div class='answer3'style="width: 800px; height: 100px; background-color: #66b0b3;font-size: 40px">
+        СОВА
+    </div>
+</div>
+<div class='question2'style="background-color: #737887; height: 800px; width: 800px; margin-left: 500px;display: none">
+	<img src='http://www.peterburg.ru/sites/default/files/styles/630x420/public/svinka_peppa2_0.jpg?itok=9gihIXEn' style="width: 800px"/>
+<h2>Как зовут лучшую подругу Пеппы?</h2>
+    <div class='answer1'style="width: 800px; height: 100px; background-color: purple; font-size: 40px">
+        ЗОИ
+    </div>
+    <div class='answer2'style="width: 800px; height: 100px; background-color: red;font-size: 40px">
+        РЕБЕККА
+    </div>
+    <div class='answer3'style="width: 800px; height: 100px; background-color: #66b0b3;font-size: 40px">
+        СЬЮЗИ
+    </div>
+</div>
+<div class='question3'style="background-color: grey; height: 700px; width: 800px; margin-left: 500px;display: none">
+	<img src='http://www.mama-znaet.com/sites/default/files/styles/large/public/images/20141904005147.jpg?itok=wSPqZ6DI' style="width: 800px"/>
+	<h3>У кого в Свинке Пеппы самое большое количество выполненной деятельности процесса превращения одного вида энергии в другой?</h3>
+	<div class='answer1'style="width: 800px; height: 100px; background-color: #8356b8; font-size: 40px">
+        МИСТЕР БЫК
+    </div>
+    <div class='answer2'style="width: 800px; height: 100px; background-color: #78f0a4;font-size: 40px">
+        МИСС КРОЛЬЧИХА
+    </div>
+    <div class='answer3'style="width: 800px; height: 100px; background-color: white;font-size: 40px">
+        МАДАМ ГАЗЕЛЬ
+    </div>
+</div>
+<div class='question4'style="background-color: red; height: 700px; width: 800px; margin-left: 500px;display: none">
+	<img src='https://i.ytimg.com/vi/R6W0V5ZMXts/hqdefault.jpg' style="width: 800px"/>
+	<h4>Почему знакомые и друзья пеппы идут в зоопарк, если они и есть животные?</h4>
+	<div class='answer1'style="width: 800px; height: 200px; background-color: #8356b8; font-size: 40px">
+		ОТВЕТА НЕТУ
+	</div>
+</div>
+<div class='question5'style="background-color: yellow; height: 700px; width: 800px; margin-left: 500px;display: none">
+	<h5>почему доктор хомяк лечит животных, если они и есть животные, то она тоже их лечит?</h5>
+	<div class='answer1'style="width: 800px; height: 200px; background-color: orange; font-size: 40px">
+		ОТВЕТА НЕТУ
+	</div>
+</div>
+<div class='question6'style="background-color: purple; height: 700px; width: 800px; margin-left: 500px;display: none">
+	<h6>Почему мистер корова покупает молоко, если они ивыдают молоко? у них есть крорва как и у нас?</h6>
+	<div class='answer1'style="width: 800px; height: 200px; background-color: white; font-size: 40px">
+		ОТВЕТА НЕТУ
+	</div>
+</div>
+<script>
+    find('question1 answer1').click('show', 'question2', 'правильно!')
+    find('question1 answer2').click('alert', 'неверно.')
+    find('question1 answer3').click('alert', 'неверно.')
+
+    find('question2 answer1').click('alert', 'неверно.')
+    find('question2 answer2').click('alert', 'неверно.')
+    find('question2 answer3').click('show', 'question3', 'правильно!')
+
+    find('question3 answer1').click('alert', 'неверно.')
+    find('question3 answer2').click('show', 'question4','правильно!')
+    find('question3 answer3').click('alert', 'неверно')
+
+    find('question4 answer1').click('show', 'question5', 'ответа нету!')
+
+    find('question5 answer1').click('show', 'question6', 'ответа нету!')
+
+    find('question6 answer1').click('show', 'question6', 'ответа нету!')
+</script>
